@@ -6,8 +6,8 @@
 // @author       Pengus
 // @match        https://peixun.amac.org.cn/*
 // @icon         https://peixun.amac.org.cn/favicon.ico
-// @downloadURL  https://github.com/shiba2046/greasemonkey-scripts/blob/main/amac-training-tool.js
-// @updateURL    https://github.com/shiba2046/greasemonkey-scripts/blob/main/amac-training-tool.js
+// @downloadURL  https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/amac-training-tool.js
+// @updateURL    https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/amac-training-tool.js
 // @grant        none
 // @license      MIT
 // ==/UserScript==

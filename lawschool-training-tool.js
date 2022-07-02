@@ -7,8 +7,8 @@
 // @match        https://lawschool.lawyerpass.com/course/*
 // @match        https://lawschool.lawyerpass.com/center/*
 // @icon         https://lawschool.lawyerpass.com/assets/images/favicon.ico
-// @downloadURL  https://github.com/shiba2046/greasemonkey-scripts/blob/main/lawschool-training-tool.js
-// @updateURL    https://github.com/shiba2046/greasemonkey-scripts/blob/main/lawschool-training-tool.js
+// @downloadURL  https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/lawschool-training-tool.js
+// @updateURL    https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/lawschool-training-tool.js
 // @grant        none
 // ==/UserScript==
 
