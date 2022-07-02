@@ -2,8 +2,8 @@
 // @name         律师云学院助手
 // @namespace    http://tampermonkey.net/
 // @version      0.2
-// @description  try to take over the world!
-// @author       You
+// @description  自动刷律协培训课程
+// @author       shiba2046
 // @match        https://lawschool.lawyerpass.com/course/*
 // @match        https://lawschool.lawyerpass.com/center/*
 // @icon         https://lawschool.lawyerpass.com/assets/images/favicon.ico

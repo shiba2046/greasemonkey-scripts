@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         基金从业人员远程培训工具
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Prevent the video stop when lost focus
 // @author       Pengus
 // @match        https://peixun.amac.org.cn/*
