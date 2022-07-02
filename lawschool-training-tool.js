@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  自动刷律协培训课程
-// @author       shiba2046
+// @author       Pengus
 // @match        https://lawschool.lawyerpass.com/course/*
 // @match        https://lawschool.lawyerpass.com/center/*
 // @icon         https://lawschool.lawyerpass.com/assets/images/favicon.ico
@@ -20,7 +20,7 @@ function play() {
 }
 
 function checkBlock() {
-    let btn = document.querySelector(".ant-modal-confirm-btns > button")
+    var btn = document.querySelector(".ant-modal-confirm-btns > button")
     if ( btn !== null ) {
         btn.click();
         play();
