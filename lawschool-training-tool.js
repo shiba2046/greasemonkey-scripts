@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         律师云学院助手
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  自动刷律协培训课程
 // @author       shiba2046
 // @match        https://lawschool.lawyerpass.com/course/*
@@ -10,6 +10,7 @@
 // @downloadURL  https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/lawschool-training-tool.js
 // @updateURL    https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/lawschool-training-tool.js
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 function play() {
