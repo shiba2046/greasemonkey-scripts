@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         基金从业人员远程培训工具
-// @namespace    http://tampermonkey.net/
-// @version      0.3
+// @namespace    https://github.com/shiba2046/greasemonkey-scripts
+// @version      0.4
 // @description  Prevent the video stop when lost focus
 // @author       Pengus
 // @match        https://peixun.amac.org.cn/*
@@ -15,7 +15,6 @@
 (function() {
     'use strict';
     window.addEventListener('blur', function() {
-        // your code here
         window.onblur = {}
     }, false);
 
