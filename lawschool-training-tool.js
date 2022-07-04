@@ -42,12 +42,7 @@ function urlHas(text) {
         }
     };
 
-    function setTitle() {
-        var title = qSelector(".title")
-        if (title !== null) {
-            document.title = title.textContent.trim().split(' ')[0];
-        }
-    };
+
 
     function checkBlock() {
         var btn = qSelector(".ant-modal-confirm-btns > button")
@@ -57,41 +52,51 @@ function urlHas(text) {
         }
     };
 
-    function check100Percent() {
+    function progress() {
         var progress = qSelector('div.name.pull-left > div.ng-star-inserted').innerText.split('：')[1]
-        var number = parseInt(progress);
-        if ( number >= 99 ) {
+        return parseInt(progress);
+    }
+
+    function check100Percent() {
+        
+        if ( progress() >= 99 ) {
             qSelector('.entrance').click();
         }
     };
 
-
+    function setTitle() {
+        var title = qSelector(".title")
+        if (title !== null) {
+            document.title = progress() + "% - " + title.textContent.trim().split(' ')[0];
+        }
+    };
     function stats() {
         var done = qSelectorAll('.text-green').length;
         var not_done = qSelectorAll('.text-yellow').length;
         qSelector('.username').innerHTML += `<br/> 共 ${done+not_done} 课，已完成 ${done} 课，未完成 ${not_done} 课 `
     }
 
-    setTitle();
-    if (urlHas('trainPlan')) {
+    if (urlHas('trainPlan')){
         window.addEventListener('load', stats, false);
     }
 
+    
+    // 培训列表界面
     setInterval(function(){
-
         if (urlHas('trainPlan')) {
+            qSelector("button.issue-btn.issue-default-btn.ng-star-inserted").click();
             var div = Array.from(qSelectorAll('.progress-num')).find( el => el.innerText == '0%');
             div.parentElement.parentElement.querySelector('a').click()
         }
 
+    // 培训课程界面
 
         if (urlHas('course')) {
+            setTitle();
             check100Percent();
             checkBlock();
             play();
         }
-
-    },10000);
-
+    }, 15000);
 
 })();
