@@ -9,8 +9,6 @@
 // @icon         https://lawschool.lawyerpass.com/assets/images/favicon.ico
 // @downloadURL  https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/lawschool-training-tool.js
 // @updateURL    https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/lawschool-training-tool.js
-
-///// @require      file:///home/peng/Dev/greasemonkey-scripts/lawschool-training-tool.js
 // @grant        none
 // @license      MIT
 // ==/UserScript==
