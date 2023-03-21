@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Open in 12ft.io
-// @namespace    https://github.com/shiba2046/greasemonkey-scripts/open-in-12ftio.js
+// @namespace    https://raw.githubusercontent.com/shiba2046/greasemonkey-scripts/main/open-in-12ftio.js
 // @version      0.1
 // @description  try to take over the world!
 // @author       shiba2046
